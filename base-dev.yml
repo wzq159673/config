@@ -10,7 +10,9 @@ spring:
     password: root
   rabbitmq:
     host: 127.0.0.1
-  
+  cloud:
+    refresh:
+      refreshable: none
 eureka:
   client:
     service-url:
